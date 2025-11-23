@@ -1,0 +1,26 @@
+/*
+banking风格的样式
+https://poseidon.primeng.org/dashboard-banking 
+通过主题编辑器-其他-全局样式进行配置 
+*/
+
+body {
+  --surface-ground: linear-gradient(180deg, #e0e7f5 0%, rgba(170, 194, 239, 0.06) 111.26%);
+  background: var(--surface-ground);
+}
+
+.ant-pro-layout .ant-pro-layout-bg-list {
+  background: transparent;
+}
+
+.ant-pro-layout .ant-layout-header.ant-pro-layout-header {
+  background: transparent;
+}
+
+.ant-layout-sider .ant-menu {
+  background: transparent !important;
+}
+
+.ant-page-header,.ant-pro-layout .ant-layout-sider.ant-pro-sider {
+  background: transparent !important;
+}
